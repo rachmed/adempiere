@@ -59,6 +59,7 @@ import org.compiere.util.TrxRunnable;
  * @author Michael McKay, 
  * 				<li>ADEMPIERE-72 VLookup and Info Window improvements
  * 					https://adempiere.atlassian.net/browse/ADEMPIERE-72
+ * yes 
  *
  */
 public class VAllocation extends Allocation
