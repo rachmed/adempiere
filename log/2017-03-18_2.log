@@ -1,0 +1,5 @@
+*** 2017-03-18 00:39:04.075 Adempiere Log (CLogFile) ***
+00:39:04.072 Adempiere.startup: ADempiere(r) Release 3.8.0_2015-03-01 -Smart Suite ERP,CRM and SCM- (c) 1999-2015 ADempiere(r); Implementation: ${ADEMPIERE_VERSION} 20170318-0035 - ${ADEMPIERE_VENDOR} [1]
+00:39:04.080 Ini.loadProperties: C:\Users\lion007\Documents\GitHub\adempiere\Adempiere.properties #29 [1]
+
+*** 2017-03-18 00:39:05.74 Adempiere Log (CLogFile) ***

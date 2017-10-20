@@ -1,0 +1,9 @@
+*** 2017-04-13 19:27:49.93 Adempiere Log (CLogFile) ***
+19:27:49.930 Adempiere.startup: ADempiere(r) Release 3.8.0_2015-03-01 -Smart Suite ERP,CRM and SCM- (c) 1999-2015 ADempiere(r); Implementation: ${ADEMPIERE_VERSION} 20170413-1902 - ${ADEMPIERE_VENDOR} [1]
+19:27:49.931 Ini.loadProperties: C:\Users\lion007\Documents\GitHub\adempiere\Adempiere.properties #36 [1]
+19:27:52.165   CLogMgt.setLevel: FINE [1]
+19:27:52.166 SignDatabaseBuild.main: Sign Database Build [1]
+19:27:52.166 SignDatabaseBuild.main: ------------------- [1]
+19:27:52.171 SignDatabaseBuild.main: UPDATE AD_System SET LastBuildInfo = ? [1]
+
+*** 2017-04-13 19:27:52.645 Adempiere Log (CLogFile) ***

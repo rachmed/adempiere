@@ -1,0 +1,624 @@
+*** 2017-04-13 20:42:13.805 Adempiere Log (CLogFile) ***
+20:42:13.804 Adempiere.startup: ADempiere(r) Release 3.8.0_2015-03-01 -Smart Suite ERP,CRM and SCM- (c) 1999-2015 ADempiere(r); Implementation: ${ADEMPIERE_VERSION} 20170413-2017 - ${ADEMPIERE_VENDOR} [1]
+20:42:13.806 Ini.loadProperties: C:\Users\lion007\Documents\GitHub\adempiere\Adempiere.properties #36 [1]
+20:42:15.634   CLogMgt.setLevel: CONFIG [1]
+20:42:15.716   MigrationLoader.loadXML: Processing migration files in directory: C:\Users\lion007\Documents\GitHub\adempiere\migration [1]
+20:42:16.068   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0000_120_Merge_Migration.xml [1]
+20:42:16.190   MigrationLoader.applyMigration: Migration 0 - Merge migration - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.193   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0000_120_Merge_Migration.xml [1]
+20:42:16.235   MigrationLoader.applyMigration: Migration 0 - Merge migration - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.238   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0001_150_Create_charge_on_import_account.xml [1]
+20:42:16.271   MigrationLoader.applyMigration: Migration 1 - Create charge when importing account - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.273   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0001_150_Create_charge_on_import_account.xml [1]
+20:42:16.317   MigrationLoader.applyMigration: Migration 1 - Create charge when importing account - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.320   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0002_160_Improve_initial_client_setup.xml [1]
+20:42:16.342   MigrationLoader.applyMigration: Migration 2 - Improve initial setup - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.346   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0002_160_Improve_initial_client_setup.xml [1]
+20:42:16.368   MigrationLoader.applyMigration: Migration 2 - Improve initial setup - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.372   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0003_190_Copy_Report.xml [1]
+20:42:16.389   MigrationLoader.applyMigration: Migration 3 - Copy report - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.394   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0003_190_Copy_Report.xml [1]
+20:42:16.413   MigrationLoader.applyMigration: Migration 3 - Copy report - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.416   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0004_360_memo_alert_and_lookup.xml [1]
+20:42:16.538   MigrationLoader.applyMigration: Migration 4 - Memo, alert and lookup display - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.540   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0004_360_memo_alert_and_lookup.xml [1]
+20:42:16.645   MigrationLoader.applyMigration: Migration 4 - Memo, alert and lookup display - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.647   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0005_365_fix_chart_field_type.xml [1]
+20:42:16.664   MigrationLoader.applyMigration: Migration 5 - Fix chart field type - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.666   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0005_365_fix_chart_field_type.xml [1]
+20:42:16.682   MigrationLoader.applyMigration: Migration 5 - Fix chart field type - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.684   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0006_460_Add_series_to_chart.xml [1]
+20:42:16.702   MigrationLoader.applyMigration: Migration 6 - Add series to chart data - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.703   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0006_460_Add_series_to_chart.xml [1]
+20:42:16.724   MigrationLoader.applyMigration: Migration 6 - Add series to chart data - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.729   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0007_550_Grid_Column_display.xml [1]
+20:42:16.743   MigrationLoader.applyMigration: Migration 7 - Grid column display - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.745   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0007_550_Grid_Column_display.xml [1]
+20:42:16.769   MigrationLoader.applyMigration: Migration 7 - Grid column display - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.771   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0008_551_Add_InfoFactoryClass_CopyFrom_For_SB.xml [1]
+20:42:16.786   MigrationLoader.applyMigration: Migration 8 - Add InfoFactoryClass for Smart Browse - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.793   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0008_551_Add_InfoFactoryClass_CopyFrom_For_SB.xml [1]
+20:42:16.810   MigrationLoader.applyMigration: Migration 8 - Add InfoFactoryClass for Smart Browse - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.813   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0009_560_CRM.xml [1]
+20:42:16.984   MigrationLoader.applyMigration: Migration 9 - CRM - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:16.986   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0009_560_CRM.xml [1]
+20:42:17.267   MigrationLoader.applyMigration: Migration 9 - CRM - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.270   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0010_561_Cashflow_Management.xml [1]
+20:42:17.292   MigrationLoader.applyMigration: Migration 10 - Cash Flow Management - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.300   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0010_561_Cashflow_Management.xml [1]
+20:42:17.327   MigrationLoader.applyMigration: Migration 10 - Cash Flow Management - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.330   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0011_562_CheckOnHand.xml [1]
+20:42:17.345   MigrationLoader.applyMigration: Migration 11 - Alert quantity on hand is insufficient - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.347   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0011_562_CheckOnHand.xml [1]
+20:42:17.356   MigrationLoader.applyMigration: Migration 11 - Alert quantity on hand is insufficient - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.358   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0012_563_CostingByWarehouse.xml [1]
+20:42:17.371   MigrationLoader.applyMigration: Migration 12 - CostEngine by Warehouse - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.373   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0012_563_CostingByWarehouse.xml [1]
+20:42:17.385   MigrationLoader.applyMigration: Migration 12 - CostEngine by Warehouse - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.386   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0013_564_DefaultsForSmartBrowser.xml [1]
+20:42:17.403   MigrationLoader.applyMigration: Migration 13 - Defaults for Smart browser  - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.404   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0013_564_DefaultsForSmartBrowser.xml [1]
+20:42:17.418   MigrationLoader.applyMigration: Migration 13 - Defaults for Smart browser  - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.421   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0014_565_ManufacturingScheduling.xml [1]
+20:42:17.549   MigrationLoader.applyMigration: Migration 14 - Manufacturing Scheduling - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.551   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0014_565_ManufacturingScheduling.xml [1]
+20:42:17.703   MigrationLoader.applyMigration: Migration 14 - Manufacturing Scheduling - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.707   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0015_580_ImportProductASI.xml [1]
+20:42:17.726   MigrationLoader.applyMigration: Migration 15 - Import Product ASI - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.729   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0015_580_ImportProductASI.xml [1]
+20:42:17.750   MigrationLoader.applyMigration: Migration 15 - Import Product ASI - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.753   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0016_700_Import_field_default.xml [1]
+20:42:17.764   MigrationLoader.applyMigration: Migration 16 - Import field default value - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.766   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0016_700_Import_field_default.xml [1]
+20:42:17.779   MigrationLoader.applyMigration: Migration 16 - Import field default value - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.780   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0017_710_ViewColumnTranslation.xml [1]
+20:42:17.792   MigrationLoader.applyMigration: Migration 17 - View Column - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.793   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0017_710_ViewColumnTranslation.xml [1]
+20:42:17.808   MigrationLoader.applyMigration: Migration 17 - View Column - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.810   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0018_Simplified_GL_Journal.xml [1]
+20:42:17.836   MigrationLoader.applyMigration: Migration 18 - Simplified Gl journal - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.838   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0018_Simplified_GL_Journal.xml [1]
+20:42:17.861   MigrationLoader.applyMigration: Migration 18 - Simplified Gl journal - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.866   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0019_1990_Set_ZK_ID_Generator_for_SAHI_Testing.xml [1]
+20:42:17.881   MigrationLoader.applyMigration: Migration 19 - Set the ZK ID Generator for Sahi Testing - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.882   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0019_1990_Set_ZK_ID_Generator_for_SAHI_Testing.xml [1]
+20:42:17.895   MigrationLoader.applyMigration: Migration 19 - Set the ZK ID Generator for Sahi Testing - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:17.897   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0020_RecruitmentManagement.xml [1]
+20:42:18.051   MigrationLoader.applyMigration: Migration 20 - Recruitment Management - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.055   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0020_RecruitmentManagement.xml [1]
+20:42:18.187   MigrationLoader.applyMigration: Migration 20 - Recruitment Management - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.188   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0021_CostTransactionDetail.xml [1]
+20:42:18.203   MigrationLoader.applyMigration: Migration 21 - Cost Transaction Detail - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.208   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0021_CostTransactionDetail.xml [1]
+20:42:18.229   MigrationLoader.applyMigration: Migration 21 - Cost Transaction Detail - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.234   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0022_AddValidToInPayrollMovement Import.xml [1]
+20:42:18.257   MigrationLoader.applyMigration: Migration 22 - Add Valid to in Payroll Movement Import - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.258   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0022_AddValidToInPayrollMovement Import.xml [1]
+20:42:18.272   MigrationLoader.applyMigration: Migration 22 - Add Valid to in Payroll Movement Import - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.275   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0023_FixDictionaryDefinition.xml [1]
+20:42:18.287   MigrationLoader.applyMigration: Migration 23 - Fix Dictionary Definition - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.289   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0023_FixDictionaryDefinition.xml [1]
+20:42:18.303   MigrationLoader.applyMigration: Migration 23 - Fix Dictionary Definition - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.305   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0024_AddMessageIsProductAttribute.xml [1]
+20:42:18.316   MigrationLoader.applyMigration: Migration 24 - Adempiere-301 Add message for IsProductAttribute - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.318   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0024_AddMessageIsProductAttribute.xml [1]
+20:42:18.330   MigrationLoader.applyMigration: Migration 24 - Adempiere-301 Add message for IsProductAttribute - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.333   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0025_AddIsShowTotaSmartBrowser.xml [1]
+20:42:18.348   MigrationLoader.applyMigration: Migration 25 - Is Shown Total - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.349   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0025_AddIsShowTotaSmartBrowser.xml [1]
+20:42:18.365   MigrationLoader.applyMigration: Migration 25 - Is Shown Total - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.367   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0026_SetIdentifiersMigrationTable.xml [1]
+20:42:18.380   MigrationLoader.applyMigration: Migration 26 - Set identifiers to columns for migration table - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.382   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0026_SetIdentifiersMigrationTable.xml [1]
+20:42:18.393   MigrationLoader.applyMigration: Migration 26 - Set identifiers to columns for migration table - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.395   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0027_Sales_Management_Fix.xml [1]
+20:42:18.408   MigrationLoader.applyMigration: Migration 27 - Sales Management fixes - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.410   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0027_Sales_Management_Fix.xml [1]
+20:42:18.421   MigrationLoader.applyMigration: Migration 27 - Sales Management fixes - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.425   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0028_TheAdvancedZoomAndRelationTypes.xml [1]
+20:42:18.438   MigrationLoader.applyMigration: Migration 28 - The Advanced Zoom and RelationTypes do not work ADEMPIERE-80 - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.440   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0028_TheAdvancedZoomAndRelationTypes.xml [1]
+20:42:18.452   MigrationLoader.applyMigration: Migration 28 - The Advanced Zoom and RelationTypes do not work ADEMPIERE-80 - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.453   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0029_ImplementEmbeddedOrHorizontalTab.xml [1]
+20:42:18.466   MigrationLoader.applyMigration: Migration 29 - Implement embedded or horizontal - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.468   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0029_ImplementEmbeddedOrHorizontalTab.xml [1]
+20:42:18.481   MigrationLoader.applyMigration: Migration 29 - Implement embedded or horizontal - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.486   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0030_ImplementCreateLandedCostDistribution.xml [1]
+20:42:18.603   MigrationLoader.applyMigration: Migration 30 - Implement functionality to create landed cost - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.604   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0030_ImplementCreateLandedCostDistribution.xml [1]
+20:42:18.631   MigrationLoader.applyMigration: Migration 30 - Implement functionality to create landed cost - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.633   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0031_ADEMPIERE-316_MigrationMessages.xml [1]
+20:42:18.642   MigrationLoader.applyMigration: Migration 31 - ADEMPIERE-316 PreventActionsWhileLogging - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.645   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0031_ADEMPIERE-316_MigrationMessages.xml [1]
+20:42:18.656   MigrationLoader.applyMigration: Migration 31 - ADEMPIERE-316 PreventActionsWhileLogging - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.657   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0032_ADEMPIERE-72_Info_Window_Updates.xml [1]
+20:42:18.668   MigrationLoader.applyMigration: Migration 32 - ADEMPIERE-72 - Info Window Improvements - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.672   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0032_ADEMPIERE-72_Info_Window_Updates.xml [1]
+20:42:18.694   MigrationLoader.applyMigration: Migration 32 - ADEMPIERE-72 - Info Window Improvements - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.696   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0033_SelectParentIDFlagInMigrationTables.xml [1]
+20:42:18.713   MigrationLoader.applyMigration: Migration 33 - Fix column parent ID in migration tables - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.714   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0033_SelectParentIDFlagInMigrationTables.xml [1]
+20:42:18.726   MigrationLoader.applyMigration: Migration 33 - Fix column parent ID in migration tables - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.727   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0034_GardenWorld2012-13-14.xml [1]
+20:42:18.765   MigrationLoader.applyMigration: Migration 34 - Garden World 2012 2013 2014 period - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.767   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0034_GardenWorld2012-13-14.xml [1]
+20:42:18.806   MigrationLoader.applyMigration: Migration 34 - Garden World 2012 2013 2014 period - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.808   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0035_IsAllowCopy.xml [1]
+20:42:18.818   MigrationLoader.applyMigration: Migration 35 - Is Allow Copy - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.819   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0035_IsAllowCopy.xml [1]
+20:42:18.832   MigrationLoader.applyMigration: Migration 35 - Is Allow Copy - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.834   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0036_AddNewFieldPayrollMovement.xml [1]
+20:42:18.850   MigrationLoader.applyMigration: Migration 36 - Add new field payroll movement - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.852   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0036_AddNewFieldPayrollMovement.xml [1]
+20:42:18.868   MigrationLoader.applyMigration: Migration 36 - Add new field payroll movement - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.871   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0037_ImportEmployeeAttribute.xml [1]
+20:42:18.887   MigrationLoader.applyMigration: Migration 37 - Import Employee Attribute - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.889   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0037_ImportEmployeeAttribute.xml [1]
+20:42:18.907   MigrationLoader.applyMigration: Migration 37 - Import Employee Attribute - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.909   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0038_HistoryPayrollMovement.xml [1]
+20:42:18.946   MigrationLoader.applyMigration: Migration 38 - History Payroll Movement - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.948   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0038_HistoryPayrollMovement.xml [1]
+20:42:18.985   MigrationLoader.applyMigration: Migration 38 - History Payroll Movement - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:18.988   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0039_ChangesToSupportCosting.xml [1]
+20:42:19.004   MigrationLoader.applyMigration: Migration 39 - Changes to support costing - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.005   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0039_ChangesToSupportCosting.xml [1]
+20:42:19.021   MigrationLoader.applyMigration: Migration 39 - Changes to support costing - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.023   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0040_ViewProductCosting.xml [1]
+20:42:19.036   MigrationLoader.applyMigration: Migration 40 - Remove View Product Costing - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.037   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0040_ViewProductCosting.xml [1]
+20:42:19.051   MigrationLoader.applyMigration: Migration 40 - Remove View Product Costing - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.055   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0041_ModifyProductionCreate.xml [1]
+20:42:19.071   MigrationLoader.applyMigration: Migration 41 - Modify process ProductionCreate - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.079   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0041_ModifyProductionCreate.xml [1]
+20:42:19.091   MigrationLoader.applyMigration: Migration 41 - Modify process ProductionCreate - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.092   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0042_AddMissingMessagesForAdvSearch.xml [1]
+20:42:19.102   MigrationLoader.applyMigration: Migration 42 - Add missing messages for advanced search - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.104   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0042_AddMissingMessagesForAdvSearch.xml [1]
+20:42:19.115   MigrationLoader.applyMigration: Migration 42 - Add missing messages for advanced search - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.119   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0043_AddProcessedFieldtoADMigration.xml [1]
+20:42:19.132   MigrationLoader.applyMigration: Migration 43 - Adding processed field to AD_Migration table to indicate the - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.133   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0043_AddProcessedFieldtoADMigration.xml [1]
+20:42:19.145   MigrationLoader.applyMigration: Migration 43 - Adding processed field to AD_Migration table to indicate the - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.147   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0044_FixMenuPosition.xml [1]
+20:42:19.162   MigrationLoader.applyMigration: Migration 44 - Fix Menu Position - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.163   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0044_FixMenuPosition.xml [1]
+20:42:19.174   MigrationLoader.applyMigration: Migration 44 - Fix Menu Position - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.176   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0045_AddNewFontSizeDefinition.xml [1]
+20:42:19.192   MigrationLoader.applyMigration: Migration 45 - Add new font size definition - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.193   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0045_AddNewFontSizeDefinition.xml [1]
+20:42:19.212   MigrationLoader.applyMigration: Migration 45 - Add new font size definition - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.214   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0046_ManufacturingOrderCost.xml [1]
+20:42:19.241   MigrationLoader.applyMigration: Migration 46 - Manufacturing Order Cost - 3.8.0 (EE01) ---> Migration already applied - skipping. [1]
+20:42:19.243   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0046_ManufacturingOrderCost.xml [1]
+20:42:19.270   MigrationLoader.applyMigration: Migration 46 - Manufacturing Order Cost - 3.8.0 (EE01) ---> Migration already applied - skipping. [1]
+20:42:19.274   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0047_MRPDetailDeleteCascade.xml [1]
+20:42:19.285   MigrationLoader.applyMigration: Migration 47 - MRP Detail Delete Cascade - 3.8.0 (EE01) ---> Migration already applied - skipping. [1]
+20:42:19.287   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0047_MRPDetailDeleteCascade.xml [1]
+20:42:19.298   MigrationLoader.applyMigration: Migration 47 - MRP Detail Delete Cascade - 3.8.0 (EE01) ---> Migration already applied - skipping. [1]
+20:42:19.302   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0048_SetZKAdempiereLogo.xml [1]
+20:42:19.317   MigrationLoader.applyMigration: Migration 48 - Set ZK Adempiere Logo - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.318   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0048_SetZKAdempiereLogo.xml [1]
+20:42:19.330   MigrationLoader.applyMigration: Migration 48 - Set ZK Adempiere Logo - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.337   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0049_GenerateMovementFromOrder.xml [1]
+20:42:19.381   MigrationLoader.applyMigration: Migration 49 - Generate Movement from Order - 3.8.0 (C) ---> Migration already applied - skipping. [1]
+20:42:19.382   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0049_GenerateMovementFromOrder.xml [1]
+20:42:19.418   MigrationLoader.applyMigration: Migration 49 - Generate Movement from Order - 3.8.0 (C) ---> Migration already applied - skipping. [1]
+20:42:19.422   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0050_AddMessages.xml [1]
+20:42:19.434   MigrationLoader.applyMigration: Migration 50 - Adding missing messages - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.435   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0050_AddMessages.xml [1]
+20:42:19.446   MigrationLoader.applyMigration: Migration 50 - Adding missing messages - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.447   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0051_AddGroupClassClassificationToProdImport.xml [1]
+20:42:19.464   MigrationLoader.applyMigration: Migration 51 - Adding group, class and classification to product import - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.466   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0051_AddGroupClassClassificationToProdImport.xml [1]
+20:42:19.478   MigrationLoader.applyMigration: Migration 51 - Adding group, class and classification to product import - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.479   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0052_AddRevtoMigrationWindowSort.xml [1]
+20:42:19.491   MigrationLoader.applyMigration: Migration 52 - Add ReleaseNo to Migration Window Sort Order - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.493   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0052_AddRevtoMigrationWindowSort.xml [1]
+20:42:19.505   MigrationLoader.applyMigration: Migration 52 - Add ReleaseNo to Migration Window Sort Order - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.507   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0053_ChangeMigrationIDColumns.xml [1]
+20:42:19.518   MigrationLoader.applyMigration: Migration 53 - Change Migration identifier columns - add Release No. - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.520   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0053_ChangeMigrationIDColumns.xml [1]
+20:42:19.534   MigrationLoader.applyMigration: Migration 53 - Change Migration identifier columns - add Release No. - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.537   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0054_FixTabLevel.xml [1]
+20:42:19.548   MigrationLoader.applyMigration: Migration 54 - Fix Tab Levels - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.553   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0054_FixTabLevel.xml [1]
+20:42:19.568   MigrationLoader.applyMigration: Migration 54 - Fix Tab Levels - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.570   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0055_CleanUpGW.xml [1]
+20:42:19.583   MigrationLoader.applyMigration: Migration 55 - Add process to clean up Garden World - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.586   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0055_CleanUpGW.xml [1]
+20:42:19.598   MigrationLoader.applyMigration: Migration 55 - Add process to clean up Garden World - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.601   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0056_SB_ForecastSimulation.xml [1]
+20:42:19.628   MigrationLoader.applyMigration: Migration 56 - Fix Smart Browser Forecast Simulation Result - 3.8.0 (EE01) ---> Migration already applied - skipping. [1]
+20:42:19.631   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0056_SB_ForecastSimulation.xml [1]
+20:42:19.651   MigrationLoader.applyMigration: Migration 56 - Fix Smart Browser Forecast Simulation Result - 3.8.0 (EE01) ---> Migration already applied - skipping. [1]
+20:42:19.654   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0057_MoveDistributionManagementMenu.xml [1]
+20:42:19.666   MigrationLoader.applyMigration: Migration 57 - Move Distribution Management Menu - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.667   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0057_MoveDistributionManagementMenu.xml [1]
+20:42:19.683   MigrationLoader.applyMigration: Migration 57 - Move Distribution Management Menu - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.684   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0058_RenameMfgLigthToProduction.xml [1]
+20:42:19.697   MigrationLoader.applyMigration: Migration 58 - Rename Manufacturign Light - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.699   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0058_RenameMfgLigthToProduction.xml [1]
+20:42:19.713   MigrationLoader.applyMigration: Migration 58 - Rename Manufacturign Light - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.714   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0059_RemoveBetaFunctionality.xml [1]
+20:42:19.726   MigrationLoader.applyMigration: Migration 59 - Remove Beta Functionality - 3.8.0 (EE02) ---> Migration already applied - skipping. [1]
+20:42:19.727   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0059_RemoveBetaFunctionality.xml [1]
+20:42:19.740   MigrationLoader.applyMigration: Migration 59 - Remove Beta Functionality - 3.8.0 (EE02) ---> Migration already applied - skipping. [1]
+20:42:19.743   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0060_FixPayrollSelection.xml [1]
+20:42:19.754   MigrationLoader.applyMigration: Migration 60 - Payroll Selection Check - 3.8.0 (EE02) ---> Migration already applied - skipping. [1]
+20:42:19.755   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0060_FixPayrollSelection.xml [1]
+20:42:19.769   MigrationLoader.applyMigration: Migration 60 - Payroll Selection Check - 3.8.0 (EE02) ---> Migration already applied - skipping. [1]
+20:42:19.771   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0061_AddCommentsToAdvancedFind.xml [1]
+20:42:19.785   MigrationLoader.applyMigration: Migration 61 - Add comments for the find window advanced combo box - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.786   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0061_AddCommentsToAdvancedFind.xml [1]
+20:42:19.798   MigrationLoader.applyMigration: Migration 61 - Add comments for the find window advanced combo box - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.802   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0062_FixColumnsDefaultValues.xml [1]
+20:42:19.816   MigrationLoader.applyMigration: Migration 62 - Fix Columns Default Values - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.818   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0062_FixColumnsDefaultValues.xml [1]
+20:42:19.830   MigrationLoader.applyMigration: Migration 62 - Fix Columns Default Values - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.834   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0063_SynchronizeApplicationDictionary.xml [1]
+20:42:19.860   MigrationLoader.applyMigration: Migration 63 - Synchronize Application Dictionary - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.862   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0063_SynchronizeApplicationDictionary.xml [1]
+20:42:19.887   MigrationLoader.applyMigration: Migration 63 - Synchronize Application Dictionary - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.890   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\370lts-380lts\xml\0064_SmartBrowserZoomWindow.xml [1]
+20:42:19.902   MigrationLoader.applyMigration: Migration 64 - Smart Browser zoom window - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.903   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\dist\370lts-380lts\xml\0064_SmartBrowserZoomWindow.xml [1]
+20:42:19.915   MigrationLoader.applyMigration: Migration 64 - Smart Browser zoom window - 3.8.0 (D) ---> Migration already applied - skipping. [1]
+20:42:19.917   MigrationLoader.loadFile: Loading file: C:\Users\lion007\Documents\GitHub\adempiere\migration\380lts-release\02280_Add_MaritalStatus_BP.xml [1]
+20:42:19.959   MigrationLoader.applyMigration: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) [1]
+20:42:21.309   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 10; Type: AD.  [1]
+20:42:21.602   MMigrationStep.applyPO: Synchronizing column: MColumn[82853-MaritalStatus] in table: MTable[291-C_BPartner] [1]
+20:42:22.168   MWorkflow.getDocValue: #1 [1]
+20:42:22.173   MMigrationStep.apply: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Step 10 successfully applied. [1]
+20:42:22.201   MIssue.create: TrxRun_eacbc5e9-0599-403b-86ca-3dce4768f22e [1]
+20:42:22.227   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: TrxRun_eacbc5e9-0599-403b-86ca-3dce4768f22e [1]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ad_column" violates foreign key constraint "entityt_adcolumn"
+  Detail: Key (entitytype)=(ECA02) is not present in table "ad_entitytype".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.util.Trx.run(Trx.java:528)
+	at org.compiere.util.Trx.run(Trx.java:493)
+	at org.compiere.model.MMigration.apply(MMigration.java:78)
+	at org.adempiere.process.MigrationLoader.applyMigration(MigrationLoader.java:229)
+	at org.adempiere.process.MigrationLoader.loadFile(MigrationLoader.java:211)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:103)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:22.347 Trx.rollback: **** TrxRun_eacbc5e9-0599-403b-86ca-3dce4768f22e [1]
+20:42:22.361   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 20; Type: AD.  [1]
+20:42:22.452 MTable.getPO: Using GenericPO for AD_Column_Trl [1]
+20:42:22.499   MMigrationStep.apply: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Step 20 successfully applied. [1]
+20:42:22.509   MIssue.create: TrxRun_fb281659-f8fe-486b-948a-3ce4ef946c70 [1]
+20:42:22.512   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: TrxRun_fb281659-f8fe-486b-948a-3ce4ef946c70 [1]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ad_column_trl" violates foreign key constraint "adcolumn_adcolumntrl"
+  Detail: Key (ad_column_id)=(82853) is not present in table "ad_column".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.util.Trx.run(Trx.java:528)
+	at org.compiere.util.Trx.run(Trx.java:493)
+	at org.compiere.model.MMigration.apply(MMigration.java:78)
+	at org.adempiere.process.MigrationLoader.applyMigration(MigrationLoader.java:229)
+	at org.adempiere.process.MigrationLoader.loadFile(MigrationLoader.java:211)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:103)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:22.554 Trx.rollback: **** TrxRun_fb281659-f8fe-486b-948a-3ce4ef946c70 [1]
+20:42:22.566   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 30; Type: AD.  [1]
+20:42:22.574   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 40; Type: AD.  [1]
+20:42:22.581   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 50; Type: AD.  [1]
+20:42:22.589   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 60; Type: AD.  [1]
+20:42:22.603   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 70; Type: AD.  [1]
+20:42:22.612   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 80; Type: AD.  [1]
+20:42:22.619   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 90; Type: AD.  [1]
+20:42:22.630   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 100; Type: AD.  [1]
+20:42:22.639   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 110; Type: AD.  [1]
+20:42:22.648   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 120; Type: AD.  [1]
+20:42:22.655   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 130; Type: AD.  [1]
+20:42:22.666   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 140; Type: AD.  [1]
+20:42:22.733   Env.parseContext: No Context Win=0 for: SQL=SELECT NVL(MAX(SeqNo),0)+10 AS DefaultValue FROM AD_Field WHERE AD_Tab_ID= [1]
+20:42:22.736   Env.parseContext: No Context Win=0 for: SQL=SELECT NVL(MAX(SeqNo),0)+10 AS DefaultValue FROM AD_Field WHERE AD_Tab_ID= [1]
+20:42:22.874   MMigrationStep.apply: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Step 140 successfully applied. [1]
+20:42:22.881   MIssue.create: TrxRun_9191cad1-927c-4fbd-b09d-633658c45d62 [1]
+20:42:22.883   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: TrxRun_9191cad1-927c-4fbd-b09d-633658c45d62 [1]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ad_field" violates foreign key constraint "ad_column_field"
+  Detail: Key (ad_column_id)=(82853) is not present in table "ad_column".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.util.Trx.run(Trx.java:528)
+	at org.compiere.util.Trx.run(Trx.java:493)
+	at org.compiere.model.MMigration.apply(MMigration.java:78)
+	at org.adempiere.process.MigrationLoader.applyMigration(MigrationLoader.java:229)
+	at org.adempiere.process.MigrationLoader.loadFile(MigrationLoader.java:211)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:103)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:22.928 Trx.rollback: **** TrxRun_9191cad1-927c-4fbd-b09d-633658c45d62 [1]
+20:42:22.939   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 150; Type: AD.  [1]
+20:42:23.025 MTable.getPO: Using GenericPO for AD_Field_Trl [1]
+20:42:23.074   MMigrationStep.apply: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Step 150 successfully applied. [1]
+20:42:23.081   MIssue.create: TrxRun_f6037a0f-b2d5-4ed9-b409-ca91437ca09e [1]
+20:42:23.088   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: TrxRun_f6037a0f-b2d5-4ed9-b409-ca91437ca09e [1]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ad_field_trl" violates foreign key constraint "ad_fieldtrl"
+  Detail: Key (ad_field_id)=(81416) is not present in table "ad_field".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.util.Trx.run(Trx.java:528)
+	at org.compiere.util.Trx.run(Trx.java:493)
+	at org.compiere.model.MMigration.apply(MMigration.java:78)
+	at org.adempiere.process.MigrationLoader.applyMigration(MigrationLoader.java:229)
+	at org.adempiere.process.MigrationLoader.loadFile(MigrationLoader.java:211)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:103)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:23.135 Trx.rollback: **** TrxRun_f6037a0f-b2d5-4ed9-b409-ca91437ca09e [1]
+20:42:23.149   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 160; Type: AD.  [1]
+20:42:23.188 Trx.rollback: **** TrxRun_6e5f024a-bfdd-4d3f-91d5-3743cb679ba2 [1]
+20:42:23.200   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 170; Type: AD.  [1]
+20:42:23.246 Trx.rollback: **** TrxRun_45b409b9-6c01-43da-85e5-c7d4aa7a821c [1]
+20:42:23.255   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 180; Type: AD.  [1]
+20:42:23.290   Env.parseContext: No Context Win=0 for: SQL=SELECT NVL(MAX(SeqNo),0)+10 AS DefaultValue FROM AD_Field WHERE AD_Tab_ID= [1]
+20:42:23.293   Env.parseContext: No Context Win=0 for: SQL=SELECT NVL(MAX(SeqNo),0)+10 AS DefaultValue FROM AD_Field WHERE AD_Tab_ID= [1]
+20:42:23.435   MMigrationStep.apply: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Step 180 successfully applied. [1]
+20:42:23.443   MIssue.create: TrxRun_7abfb905-e6e8-4e2b-8376-41a615b81c8f [1]
+20:42:23.446   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: TrxRun_7abfb905-e6e8-4e2b-8376-41a615b81c8f [1]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ad_field" violates foreign key constraint "ad_column_field"
+  Detail: Key (ad_column_id)=(82853) is not present in table "ad_column".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.util.Trx.run(Trx.java:528)
+	at org.compiere.util.Trx.run(Trx.java:493)
+	at org.compiere.model.MMigration.apply(MMigration.java:78)
+	at org.adempiere.process.MigrationLoader.applyMigration(MigrationLoader.java:229)
+	at org.adempiere.process.MigrationLoader.loadFile(MigrationLoader.java:211)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:103)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:23.497 Trx.rollback: **** TrxRun_7abfb905-e6e8-4e2b-8376-41a615b81c8f [1]
+20:42:23.508   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 190; Type: AD.  [1]
+20:42:23.589 MTable.getPO: Using GenericPO for AD_Field_Trl [1]
+20:42:23.642   MMigrationStep.apply: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Step 190 successfully applied. [1]
+20:42:23.650   MIssue.create: TrxRun_c71db563-115c-4a04-927c-93017035f297 [1]
+20:42:23.653   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: TrxRun_c71db563-115c-4a04-927c-93017035f297 [1]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ad_field_trl" violates foreign key constraint "ad_fieldtrl"
+  Detail: Key (ad_field_id)=(81417) is not present in table "ad_field".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.util.Trx.run(Trx.java:528)
+	at org.compiere.util.Trx.run(Trx.java:493)
+	at org.compiere.model.MMigration.apply(MMigration.java:78)
+	at org.adempiere.process.MigrationLoader.applyMigration(MigrationLoader.java:229)
+	at org.adempiere.process.MigrationLoader.loadFile(MigrationLoader.java:211)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:103)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:23.700 Trx.rollback: **** TrxRun_c71db563-115c-4a04-927c-93017035f297 [1]
+20:42:23.716   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 200; Type: AD.  [1]
+20:42:23.723   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 210; Type: AD.  [1]
+20:42:23.765 Trx.rollback: **** TrxRun_20941207-d012-43b7-b7cd-06cb06927b4e [1]
+20:42:23.774   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 220; Type: AD.  [1]
+20:42:23.918   Env.parseContext: No Context Win=0 for: SQL=SELECT NVL(MAX(SeqNo),0)+10 AS DefaultValue FROM AD_Field WHERE AD_Tab_ID= [1]
+20:42:23.922   Env.parseContext: No Context Win=0 for: SQL=SELECT NVL(MAX(SeqNo),0)+10 AS DefaultValue FROM AD_Field WHERE AD_Tab_ID= [1]
+20:42:24.060   MMigrationStep.apply: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Step 220 successfully applied. [1]
+20:42:24.068   MIssue.create: TrxRun_c2444ffc-8ad8-4d8c-95e6-0e439e925235 [1]
+20:42:24.071   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: TrxRun_c2444ffc-8ad8-4d8c-95e6-0e439e925235 [1]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ad_field" violates foreign key constraint "ad_column_field"
+  Detail: Key (ad_column_id)=(82853) is not present in table "ad_column".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.util.Trx.run(Trx.java:528)
+	at org.compiere.util.Trx.run(Trx.java:493)
+	at org.compiere.model.MMigration.apply(MMigration.java:78)
+	at org.adempiere.process.MigrationLoader.applyMigration(MigrationLoader.java:229)
+	at org.adempiere.process.MigrationLoader.loadFile(MigrationLoader.java:211)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:103)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:24.115 Trx.rollback: **** TrxRun_c2444ffc-8ad8-4d8c-95e6-0e439e925235 [1]
+20:42:24.126   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 230; Type: AD.  [1]
+20:42:24.219 MTable.getPO: Using GenericPO for AD_Field_Trl [1]
+20:42:24.272   MMigrationStep.apply: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Step 230 successfully applied. [1]
+20:42:24.279   MIssue.create: TrxRun_930e8a2c-21d2-4713-9a35-dfc2f3787800 [1]
+20:42:24.283   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: TrxRun_930e8a2c-21d2-4713-9a35-dfc2f3787800 [1]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ad_field_trl" violates foreign key constraint "ad_fieldtrl"
+  Detail: Key (ad_field_id)=(81418) is not present in table "ad_field".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.util.Trx.run(Trx.java:528)
+	at org.compiere.util.Trx.run(Trx.java:493)
+	at org.compiere.model.MMigration.apply(MMigration.java:78)
+	at org.adempiere.process.MigrationLoader.applyMigration(MigrationLoader.java:229)
+	at org.adempiere.process.MigrationLoader.loadFile(MigrationLoader.java:211)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:103)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:24.333 Trx.rollback: **** TrxRun_930e8a2c-21d2-4713-9a35-dfc2f3787800 [1]
+20:42:24.344   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 240; Type: AD.  [1]
+20:42:24.351   MMigrationStep.apply: Applying migration step: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 250; Type: AD.  [1]
+20:42:24.390 Trx.rollback: **** TrxRun_e3045457-a92a-4279-823a-9dd3e7cbf1ee [1]
+20:42:24.399   MMigrationStep.apply: Migration step already applied: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D); Step: 260; Type: SQL.  [1]
+20:42:24.420   MMigration.updateStatus: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Partially Applied (P) [1]
+20:42:24.446   MMigration.updateStatus: Migration 2280 - Marital Status should be part of Business partner #969 - 3.8.0 (D) ---> Partially Applied (P) [1]
+20:42:24.457 SequenceCheck.doIt:  [1]
+20:42:24.617 SequenceCheck.checkTableID: IDRangeEnd = 9999999 [1]
+20:42:30.188 MSequence.checkClientSequences: AD_Client_ID=0 - created #0 - success=true [1]
+20:42:30.201 MSequence.checkClientSequences: AD_Client_ID=11 - created #0 - success=true [1]
+20:42:30.223   MIssue.create: Did not find PInstance 0 [1]
+20:42:30.228   GridField.loadLookup: (SystemStatus) [1]
+===========> SequenceCheck.unlock: Did not find PInstance 0 [1]
+20:42:30.265   MigrationLoader.loadXML: Process=Sequence Check Error=false Summary=Sequence Check [1]
+20:42:30.337 SynchronizeTerminology.doIt: Adding missing Element Translations [1]
+20:42:30.348 SynchronizeTerminology.doIt:   rows updated: 9 [1]
+20:42:30.351 SynchronizeTerminology.doIt: Creating link from Element to Column [1]
+20:42:30.361 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.364 SynchronizeTerminology.doIt: Deleting unused Elements [1]
+20:42:30.419 SynchronizeTerminology.doIt:   rows deleted: 9 [1]
+20:42:30.456 SynchronizeTerminology.doIt:   rows deleted: 0 [1]
+20:42:30.460 SynchronizeTerminology.doIt: Synchronize Column [1]
+20:42:30.504 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.505 SynchronizeTerminology.doIt: Synchronize Field [1]
+20:42:30.601 SynchronizeTerminology.doIt:   rows updated: 103 [1]
+20:42:30.606 SynchronizeTerminology.doIt: Synchronize Field Translations [1]
+20:42:30.717 SynchronizeTerminology.doIt:   rows updated: 60 [1]
+20:42:30.720 SynchronizeTerminology.doIt: Synchronize PO Field [1]
+20:42:30.753 SynchronizeTerminology.doIt:   rows updated: 103 [1]
+20:42:30.756 SynchronizeTerminology.doIt: Synchronize PO Field Translations [1]
+20:42:30.795 SynchronizeTerminology.doIt:   rows updated: 60 [1]
+20:42:30.800 SynchronizeTerminology.doIt: Synchronize Field from Process [1]
+20:42:30.833 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.836 SynchronizeTerminology.doIt: Synchronize Field Trl from Process Trl [1]
+20:42:30.873 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.876 SynchronizeTerminology.doIt: Synchronize Browse Field [1]
+20:42:30.900 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.902 SynchronizeTerminology.doIt: Synchronize Browse Field Translations [1]
+20:42:30.923 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.941 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.947 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.949 SynchronizeTerminology.doIt: Synchronize Process Parameter [1]
+20:42:30.961 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.964 SynchronizeTerminology.doIt: Synchronize Process Parameter Trl [1]
+20:42:30.979 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:30.987 SynchronizeTerminology.doIt: Synchronize Workflow Node from Window [1]
+20:42:30.998 SynchronizeTerminology.doIt:   rows updated: 1 [1]
+20:42:31.001 SynchronizeTerminology.doIt: Synchronize Workflow Node Trl from Window Trl [1]
+20:42:31.013 SynchronizeTerminology.doIt:   rows updated: 1 [1]
+20:42:31.017 SynchronizeTerminology.doIt: Synchronize Workflow Node from Form [1]
+20:42:31.022 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.027 SynchronizeTerminology.doIt: Synchronize Workflow Node Trl from Form Trl [1]
+20:42:31.036 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.039 SynchronizeTerminology.doIt: Synchronize Workflow Node from Process [1]
+20:42:31.044 SynchronizeTerminology.doIt:   rows updated: 1 [1]
+20:42:31.049 SynchronizeTerminology.doIt: Synchronize Workflow Node Trl from Process Trl [1]
+20:42:31.061 SynchronizeTerminology.doIt:   rows updated: 1 [1]
+20:42:31.063 SynchronizeTerminology.doIt: Synchronize PrintFormatItem Name from Element [1]
+20:42:31.108 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.111 SynchronizeTerminology.doIt: Synchronize PrintFormatItem PrintName from Element [1]
+20:42:31.137 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.140 SynchronizeTerminology.doIt: Synchronize PrintFormatItem Trl from Element Trl (Multi-Lingual) [1]
+20:42:31.170 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.175 SynchronizeTerminology.doIt: Synchronize PrintFormatItem Trl (Not Multi-Lingual) [1]
+20:42:31.187 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.188 SynchronizeTerminology.doIt: Reset PrintFormatItem Trl where not used in base table [1]
+20:42:31.196 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.198 SynchronizeTerminology.doIt: Synchronizing Menu with Window [1]
+20:42:31.211 SynchronizeTerminology.doIt:   rows updated: 393 [1]
+20:42:31.229 SynchronizeTerminology.doIt:   rows updated: 393 [1]
+20:42:31.234 SynchronizeTerminology.doIt: Synchronizing Menu with Processes [1]
+20:42:31.244 SynchronizeTerminology.doIt:   rows updated: 185 [1]
+20:42:31.255 SynchronizeTerminology.doIt:   rows updated: 184 [1]
+20:42:31.258 SynchronizeTerminology.doIt: Synchronizing Menu with Forms [1]
+20:42:31.263 SynchronizeTerminology.doIt:   rows updated: 34 [1]
+20:42:31.282 SynchronizeTerminology.doIt:   rows updated: 34 [1]
+20:42:31.287 SynchronizeTerminology.doIt: Synchronizing Menu with Workflows [1]
+20:42:31.292 SynchronizeTerminology.doIt:   rows updated: 21 [1]
+20:42:31.301 SynchronizeTerminology.doIt:   rows updated: 21 [1]
+20:42:31.303 SynchronizeTerminology.doIt: Synchronizing Menu with Tasks [1]
+20:42:31.310 SynchronizeTerminology.doIt:   rows updated: 3 [1]
+20:42:31.317 SynchronizeTerminology.doIt:   rows updated: 3 [1]
+20:42:31.320 SynchronizeTerminology.doIt: Synchronizing Column with Element [1]
+20:42:31.349 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.402 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.404 SynchronizeTerminology.doIt: Synchronizing Table with Element [1]
+20:42:31.412 SynchronizeTerminology.doIt:   rows updated: 0 [1]
+20:42:31.421 SynchronizeTerminology.doIt:   trl rows updated: 0 [1]
+20:42:31.433 SynchronizeTerminology.doIt:   trl rows updated: 53 [1]
+20:42:31.483 SynchronizeTerminology.doIt:   trl rows updated: 53 [1]
+20:42:31.495 Msg.initMsg: Records=1416 - en_US [1]
+20:42:31.499   MIssue.create: Did not find PInstance 0 [1]
+20:42:31.501   GridField.loadLookup: (SystemStatus) [1]
+===========> SynchronizeTerminology.unlock: Did not find PInstance 0 [1]
+20:42:31.527   MigrationLoader.loadXML: Process=Synchronize Terminology Error=false Summary=OK [1]
+20:42:31.538 RoleAccessUpdate.doIt: AD_Client_ID=-1, AD_Role_ID=-1 [1]
+20:42:31.579 RoleAccessUpdate.addLog: 0 - null - null - Role Template: - [1]
+20:42:31.662 RoleAccessUpdate.addLog: 0 - null - null - System Administrator: @AD_Window_ID@ #158 -  @AD_Process_ID@ #83 -  @AD_Form_ID@ #11 -  @AD_Browse_ID@ #1 -  @AD_Workflow_ID@ #9 -  @DocAction@ #14 [1]
+20:42:31.720 RoleAccessUpdate.addLog: 0 - null - null - GardenWorld Admin: @AD_Window_ID@ #387 -  @AD_Process_ID@ #389 -  @AD_Form_ID@ #35 -  @AD_Browse_ID@ #20 -  @AD_Workflow_ID@ #55 -  @DocAction@ #658 [1]
+20:42:31.792 RoleAccessUpdate.addLog: 0 - null - null - GardenWorld User: @AD_Window_ID@ #258 -  @AD_Process_ID@ #343 -  @AD_Form_ID@ #28 -  @AD_Browse_ID@ #20 -  @AD_Workflow_ID@ #52 -  @DocAction@ #658 [1]
+20:42:31.795 RoleAccessUpdate.addLog: 0 - null - null - Web Service Execution: - [1]
+20:42:32.018   MIssue.create: Did not find PInstance 0 [1]
+20:42:32.024   GridField.loadLookup: (SystemStatus) [1]
+===========> RoleAccessUpdate.unlock: Did not find PInstance 0 [1]
+20:42:32.061   MigrationLoader.loadXML: Process=Role Access Update Error=false Summary= [1]
+20:42:33.464   MIssue.create: SvrProcess_093f6ef2-bb35-464c-aacb-7178d7344381 [1]
+20:42:33.468   GridField.loadLookup: (SystemStatus) [1]
+===========> Trx.commit: SvrProcess_093f6ef2-bb35-464c-aacb-7178d7344381 [1]
+org.postgresql.util.PSQLException: ERROR: update or delete on table "ad_session" violates foreign key constraint "adsession_adchangelog" on table "ad_changelog"
+  Detail: Key (ad_session_id)=(1000011) is still referenced from table "ad_changelog".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:113)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:159)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:33.500   MIssue.create: Commit failed. [1]
+20:42:33.503   GridField.loadLookup: (SystemStatus) [1]
+===========> CleanUpGW.startProcess: Commit failed. [1]
+org.postgresql.util.PSQLException: ERROR: update or delete on table "ad_session" violates foreign key constraint "adsession_adchangelog" on table "ad_changelog"
+  Detail: Key (ad_session_id)=(1000011) is still referenced from table "ad_changelog".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:814)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:838)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:803)
+	at org.compiere.util.Trx.commit(Trx.java:334)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:113)
+	at org.adempiere.process.MigrationLoader.loadXML(MigrationLoader.java:159)
+	at org.adempiere.process.MigrationLoader.main(MigrationLoader.java:277)
+
+20:42:33.530   MIssue.create: Did not find PInstance 0 [1]
+20:42:33.532   GridField.loadLookup: (SystemStatus) [1]
+===========> CleanUpGW.unlock: Did not find PInstance 0 [1]
+20:42:33.555   MigrationLoader.loadXML: Process=Updating Garden World Error=true Summary=Successfully updated Garden World data.Commit Failed. [1]
+
+*** 2017-04-13 20:42:33.559 Adempiere Log (CLogFile) ***

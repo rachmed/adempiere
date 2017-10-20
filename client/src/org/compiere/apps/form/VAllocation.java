@@ -27,7 +27,7 @@ import java.util.Vector;
 import java.util.logging.Level;
 
 import javax.swing.BorderFactory;
-import javax.swing.JButton;
+import org.compiere.apps.ConfirmPanel;
 import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
@@ -119,7 +119,7 @@ public class VAllocation extends Allocation
 	private GridBagLayout allocationLayout = new GridBagLayout();
 	private JLabel differenceLabel = new JLabel();
 	private CTextField differenceField = new CTextField();
-	private JButton allocateButton = new JButton();
+	
 	private JLabel currencyLabel = new JLabel();
 	private VLookup currencyPick = null;
 	private JCheckBox multiCurrency = new JCheckBox();
@@ -132,6 +132,7 @@ public class VAllocation extends Allocation
 	private JCheckBox autoWriteOff = new JCheckBox();
 	private JLabel organizationLabel = new JLabel();
 	private VLookup organizationPick = null;
+	private ConfirmPanel confirmPanel;
 	
 	/**
 	 *  Static Init
@@ -140,6 +141,8 @@ public class VAllocation extends Allocation
 	private void jbInit() throws Exception
 	{
 		CompiereColor.setBackground(panel);
+		confirmPanel = new ConfirmPanel(true);
+		 confirmPanel.addActionListener(this);
 		//
 		paymentTable.setMultiSelection(true);  // Should be performed before the class is set.
 		invoiceTable.setMultiSelection(true);  // Should be performed before the class is set.
@@ -175,8 +178,7 @@ public class VAllocation extends Allocation
 		differenceField.setText("0");
 		differenceField.setColumns(8);
 		differenceField.setHorizontalAlignment(SwingConstants.RIGHT);
-		allocateButton.setText(Msg.getMsg(Env.getCtx(), "Process"));
-		allocateButton.addActionListener(this);
+		
 		currencyLabel.setText(Msg.translate(Env.getCtx(), "C_Currency_ID"));
 		multiCurrency.setText(Msg.getMsg(Env.getCtx(), "MultiCurrency"));
 		multiCurrency.addActionListener(this);
@@ -217,8 +219,8 @@ public class VAllocation extends Allocation
 	    		  ,GridBagConstraints.EAST, GridBagConstraints.NONE, new Insets(5, 5, 5, 5), 0, 0));
 		allocationPanel.add(allocCurrencyLabel, new GridBagConstraints(1, 0, 1, 1, 0.0, 0.0
 			,GridBagConstraints.CENTER, GridBagConstraints.NONE, new Insets(5, 5, 5, 5), 0, 0));
-		allocationPanel.add(allocateButton, new GridBagConstraints(5, 0, 1, 1, 0.0, 0.0
-			,GridBagConstraints.CENTER, GridBagConstraints.NONE, new Insets(5, 0, 5, 5), 0, 0));
+		allocationPanel.add(confirmPanel, new GridBagConstraints(10, 0, 1, 1, 1, 0.0
+				 ,GridBagConstraints.EAST, GridBagConstraints.NONE, new Insets(5, 0, 5, 5), 0, 0));     
 		allocationPanel.add(chargeLabel, new GridBagConstraints(3, 0, 1, 1, 0.0, 0.0
 				,GridBagConstraints.EAST, GridBagConstraints.NONE, new Insets(5, 5, 5, 5), 0, 0));      
 		paymentPanel.add(paymentLabel, BorderLayout.NORTH);
@@ -312,12 +314,14 @@ public class VAllocation extends Allocation
 		if (e.getSource().equals(multiCurrency))
 			loadBPartner();
 		//	Allocate
-		else if (e.getSource().equals(allocateButton))
-		{
-			allocateButton.setEnabled(false);
+		else if (e.getActionCommand().equals(ConfirmPanel.A_CANCEL)) {
+			 			dispose();
+			 		} else if (e.getActionCommand().equals(ConfirmPanel.A_OK)) {
+			 			confirmPanel.getOKButton().setEnabled(false);
+			 			
 			saveData();
 			loadBPartner();
-			allocateButton.setEnabled(true);
+			confirmPanel.getOKButton().setEnabled(true);
 		}
 	}   //  actionPerformed
 
@@ -469,7 +473,7 @@ public class VAllocation extends Allocation
 		if (totalDiff.compareTo(new BigDecimal(0.0)) == 0 ^ m_C_Charge_ID > 0)
 
 		{
-			allocateButton.setEnabled(true);
+			confirmPanel.getOKButton().setEnabled(true);
 
 			// chargePick.setValue(m_C_Charge_ID);
 
@@ -477,7 +481,7 @@ public class VAllocation extends Allocation
 		else
 		{
 
-			allocateButton.setEnabled(false);
+			confirmPanel.getOKButton().setEnabled(false);
 
 		}
 
