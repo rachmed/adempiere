@@ -1,6 +1,7 @@
 #Adempiere
-#Tue Apr 18 11:41:04 EDT 2017
-WindowDim0=1364|726
+#Tue Oct 24 15:24:55 EDT 2017
+WindowDim0=1354|728
+Warehouse=79fd77c59a99b684d791f7098a93713a
 PrintPreview=xyzN
 Warning=Do_not_change_any_of_the_data_as_they_will_have_undocumented_side_effects.
 AutoNew=xyzN
@@ -15,7 +16,7 @@ ShowTrl=xyzN
 SingleInstancePerWindow=xyzN
 Client=4ee7c52423d668d9f2208f9e14749c16
 ApplicationUserID=b6b0481f7abaeba718dc2d7909f382d0
-Organization=402506697aeb0f7f
+Organization=79fd77c59a99b684d791f7098a93713a
 CDate=xyz2017-03-18 00\:10\:01.237
 Divider=80
 ApplicationPassword=b6b0481f7abaeba718dc2d7909f382d0
@@ -28,11 +29,11 @@ LoadTabMetaDataBackground=xyzN
 LogMigrationScript=d504ada4fe01fe9b
 WarningD=Einstellungen_nicht_aendern,_da_diese_undokumentierte_Nebenwirkungen_haben.
 AutoLogin=xyzN
-Printer=acc67dc41d3d9749ae91a25e8dfc4ed65667ad98669ecf21
+Printer=acc67dc41d3d9749ae91a25e8dfc4ed65bb59014bd99b706
 TraceLevel=xyzWARNING
 Language=fe06ed5881d7009c75b459204c8eed2e
-WindowLoc0=1|1
+WindowLoc0=-8|0
 UILookFeel=0c55dfec0c465c5cb0d8e08f9070a667
-ValidateConnectionOnStartup=xyzN
 OpenWindowMaximized=xyzN
+ValidateConnectionOnStartup=xyzN
 StorePassword=xyzY

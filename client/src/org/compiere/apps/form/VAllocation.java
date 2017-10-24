@@ -59,7 +59,6 @@ import org.compiere.util.TrxRunnable;
  * @author Michael McKay, 
  * 				<li>ADEMPIERE-72 VLookup and Info Window improvements
  * 					https://adempiere.atlassian.net/browse/ADEMPIERE-72
- * yes 
  *
  */
 public class VAllocation extends Allocation
@@ -120,7 +119,7 @@ public class VAllocation extends Allocation
 	private GridBagLayout allocationLayout = new GridBagLayout();
 	private JLabel differenceLabel = new JLabel();
 	private CTextField differenceField = new CTextField();
-	
+	private ConfirmPanel confirmPanel;
 	private JLabel currencyLabel = new JLabel();
 	private VLookup currencyPick = null;
 	private JCheckBox multiCurrency = new JCheckBox();
@@ -133,7 +132,6 @@ public class VAllocation extends Allocation
 	private JCheckBox autoWriteOff = new JCheckBox();
 	private JLabel organizationLabel = new JLabel();
 	private VLookup organizationPick = null;
-	private ConfirmPanel confirmPanel;
 	
 	/**
 	 *  Static Init
@@ -142,9 +140,9 @@ public class VAllocation extends Allocation
 	private void jbInit() throws Exception
 	{
 		CompiereColor.setBackground(panel);
-		confirmPanel = new ConfirmPanel(true);
-		 confirmPanel.addActionListener(this);
 		//
+		confirmPanel = new ConfirmPanel(true);
+		confirmPanel.addActionListener(this);
 		paymentTable.setMultiSelection(true);  // Should be performed before the class is set.
 		invoiceTable.setMultiSelection(true);  // Should be performed before the class is set.
 		invoiceTable.setSurrendersFocusOnKeystroke(true);
@@ -222,7 +220,8 @@ public class VAllocation extends Allocation
 			,GridBagConstraints.CENTER, GridBagConstraints.NONE, new Insets(5, 5, 5, 5), 0, 0));
 		allocationPanel.add(confirmPanel, new GridBagConstraints(10, 0, 1, 1, 1, 0.0
 				 ,GridBagConstraints.EAST, GridBagConstraints.NONE, new Insets(5, 0, 5, 5), 0, 0));     
-		allocationPanel.add(chargeLabel, new GridBagConstraints(3, 0, 1, 1, 0.0, 0.0
+				  	
+			allocationPanel.add(chargeLabel, new GridBagConstraints(3, 0, 1, 1, 0.0, 0.0
 				,GridBagConstraints.EAST, GridBagConstraints.NONE, new Insets(5, 5, 5, 5), 0, 0));      
 		paymentPanel.add(paymentLabel, BorderLayout.NORTH);
 		paymentPanel.add(paymentInfo, BorderLayout.SOUTH);
@@ -316,14 +315,14 @@ public class VAllocation extends Allocation
 			loadBPartner();
 		//	Allocate
 		else if (e.getActionCommand().equals(ConfirmPanel.A_CANCEL)) {
-			 			dispose();
-			 		} else if (e.getActionCommand().equals(ConfirmPanel.A_OK)) {
-			 			confirmPanel.getOKButton().setEnabled(false);
-			 			
+			 	dispose();
+			 } else if (e.getActionCommand().equals(ConfirmPanel.A_OK)) {
+			 	confirmPanel.getOKButton().setEnabled(false);
+			  	
 			saveData();
 			loadBPartner();
-			confirmPanel.getOKButton().setEnabled(true);
-		}
+			confirmPanel.getOKButton().setEnabled(true); 
+			 }	
 	}   //  actionPerformed
 
 	/**

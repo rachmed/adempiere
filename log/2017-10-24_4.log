@@ -1,0 +1,9 @@
+*** 2017-10-24 15:39:16.842 Adempiere Log (CLogFile) ***
+15:39:16.841 Adempiere.startup: ADempiere(r) Release 3.8.0_2015-03-01 -Smart Suite ERP,CRM and SCM- (c) 1999-2015 ADempiere(r); Implementation: ${ADEMPIERE_VERSION} 20171024-1524 - ${ADEMPIERE_VENDOR} [9]
+15:39:16.844 Ini.loadProperties: C:\Users\lion007\Documents\GitHub\adempiere\Adempiere.properties #37 [9]
+-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [9]
+-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [9]
+-----------> EMail.isValid: From is invalid=null [9]
+-----------> EMail.isValid: From is invalid=null [9]
+-----------> MClient.sendEMail: Could NOT Send Email: Server started: ? to you @ company.org: Invalid Data (System) [9]
+===========> Env.getContextAsDate: No value for: #Date [9]
