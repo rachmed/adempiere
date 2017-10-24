@@ -45,7 +45,7 @@ public class View extends CPanel
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 5640892952739279088L;
+  private static final long serialVersionUID = 5640892952739279088L;
 
 	/**
 	 *	Print Preview
