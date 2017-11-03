@@ -41,44 +41,27 @@ import org.compiere.util.Env;
  * 	@author 	Jorg Janke
  * 	@version 	$Id: ImportOrder.java,v 1.2 2006/07/30 00:51:02 jjanke Exp $
  */
-public class ImportOrder extends SvrProcess
+public class ImportOrder extends ImportOrderAbstract
 {
-	/**	Client to be imported to		*/
-	private int				m_AD_Client_ID = 0;
-	/**	Organization to be imported to		*/
-	private int				m_AD_Org_ID = 0;
-	/**	Delete old Imported				*/
-	private boolean			m_deleteOldImported = false;
-	/**	Document Action					*/
-	private String			m_docAction = MOrder.DOCACTION_Prepare;
-
+	
 
 	/** Effective						*/
-	private Timestamp		m_DateValue = null;
+	private Timestamp		dateValue = null;
 
 	/**
 	 *  Prepare - e.g., get Parameters.
 	 */
-	protected void prepare()
-	{
-		ProcessInfoParameter[] para = getParameter();
-		for (int i = 0; i < para.length; i++)
-		{
-			String name = para[i].getParameterName();
-			if (name.equals("AD_Client_ID"))
-				m_AD_Client_ID = ((BigDecimal)para[i].getParameter()).intValue();
-			else if (name.equals("AD_Org_ID"))
-				m_AD_Org_ID = ((BigDecimal)para[i].getParameter()).intValue();
-			else if (name.equals("DeleteOldImported"))
-				m_deleteOldImported = "Y".equals(para[i].getParameter());
-			else if (name.equals("DocAction"))
-				m_docAction = (String)para[i].getParameter();
-			else
-				log.log(Level.SEVERE, "Unknown Parameter: " + name);
-		}
-		if (m_DateValue == null)
-			m_DateValue = new Timestamp (System.currentTimeMillis());
-	}	//	prepare
+	protected void prepare() {
+		 		super.prepare();
+		 		if (dateValue == null) {
+		 			dateValue = new Timestamp (System.currentTimeMillis());
+		 		}
+		 		//	Validate Document Action
+		 		if(getDocAction() == null) {
+		 			setDocAction(MOrder.DOCACTION_Prepare);
+		  		}
+		
+	}
 
 
 	/**
@@ -90,13 +73,17 @@ public class ImportOrder extends SvrProcess
 	{
 		StringBuffer sql = null;
 		int no = 0;
-		String clientCheck = " AND AD_Client_ID=" + m_AD_Client_ID;
+		String clientCheck = " AND AD_Client_ID=" + getClientId();
+		 		//	for user
+		 		if(getUserId() !=0) {
+		 			clientCheck += " AND CreatedBy = " + getUserId();
+		 		}
 
 		//	****	Prepare	****
 
 		//	Delete Old Imported
-		if (m_deleteOldImported)
-		{
+		 		if (isDeleteOldImported()) {
+		
 			sql = new StringBuffer ("DELETE I_Order "
 				  + "WHERE I_IsImported='Y'").append (clientCheck);
 			no = DB.executeUpdate(sql.toString(), get_TrxName());
@@ -105,8 +92,8 @@ public class ImportOrder extends SvrProcess
 
 		//	Set Client, Org, IsActive, Created/Updated
 		sql = new StringBuffer ("UPDATE I_Order "
-			  + "SET AD_Client_ID = COALESCE (AD_Client_ID,").append (m_AD_Client_ID).append ("),"
-			  + " AD_Org_ID = COALESCE (AD_Org_ID,").append (m_AD_Org_ID).append ("),"
+			  + "SET AD_Client_ID = COALESCE (AD_Client_ID,").append (getClientId()).append ("),"
+			  + " AD_Org_ID = COALESCE (AD_Org_ID,").append (getOrgId()).append ("),"
 			  + " IsActive = COALESCE (IsActive, 'Y'),"
 			  + " Created = COALESCE (Created, SysDate),"
 			  + " CreatedBy = COALESCE (CreatedBy, 0),"
@@ -663,10 +650,10 @@ public class ImportOrder extends SvrProcess
 				{
 					if (order != null)
 					{
-						if (m_docAction != null && m_docAction.length() > 0)
+						if (getDocAction() != null && getDocAction().length() > 0)
 						{
-							order.setDocAction(m_docAction);
-							order.processIt (m_docAction);
+							order.setDocAction(getDocAction());
+							order.processIt (getDocAction());
 						}
 						order.saveEx();
 					}
@@ -764,10 +751,10 @@ public class ImportOrder extends SvrProcess
 			}
 			if (order != null)
 			{
-				if (m_docAction != null && m_docAction.length() > 0)
+				if (getDocAction() != null && getDocAction().length() > 0)
 				{
-					order.setDocAction(m_docAction);
-					order.processIt (m_docAction);
+					order.setDocAction(getDocAction());
+					order.processIt (getDocAction());
 				}
 				order.saveEx();
 			}
